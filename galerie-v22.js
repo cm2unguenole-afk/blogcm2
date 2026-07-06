@@ -1,1 +1,7 @@
-alert("Le fichier galerie-v22.js est bien chargé !");
+document.addEventListener("DOMContentLoaded", function () {
+
+    const images = document.querySelectorAll("img");
+
+    alert("Nombre total d'images : " + images.length);
+
+});
